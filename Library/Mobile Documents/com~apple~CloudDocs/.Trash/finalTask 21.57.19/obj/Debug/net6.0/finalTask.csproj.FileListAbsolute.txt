@@ -1,0 +1,15 @@
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/bin/Debug/net6.0/finalTask
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/bin/Debug/net6.0/finalTask.deps.json
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/bin/Debug/net6.0/finalTask.runtimeconfig.json
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/bin/Debug/net6.0/finalTask.dll
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/bin/Debug/net6.0/finalTask.pdb
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.csproj.AssemblyReference.cache
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.AssemblyInfoInputs.cache
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.AssemblyInfo.cs
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.csproj.CoreCompileInputs.cache
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.dll
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/refint/finalTask.dll
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.pdb
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/finalTask.genruntimeconfig.cache
+/Users/Roman/Documents/YuliyaGB/FinalWork1quarter/finalTask/obj/Debug/net6.0/ref/finalTask.dll
