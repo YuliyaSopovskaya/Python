@@ -5,14 +5,10 @@
 # - 7 -> да
 # - 1 -> нет
 
-num = int(input('Введите число '))
-
-def checkNum(num):
-    if 6 <= num <= 7:
+day = int(input('Введите день недели '))
+if day > 7 or day < 1:
+       print('Число вне пределов 7 дней')
+elif day == 6 or day == 7:
         print('Да это выходной')
-    elif 0 < num < 6:
+else:
         print('Это будний день')
-    else:
-        print('Число вне пределов 7 дней')
-
-checkNum(num)
