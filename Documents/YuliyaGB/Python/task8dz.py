@@ -7,31 +7,21 @@
 # - x=2; y=4-> 1
 # - x=-34; y=-30 -> 3
 
-def inputСoord(x):
-    a = [0] * x
-    for i in range(x):
-        is_OK = False
-        while not is_OK:
-            try:
-                number = float(input(f"Введите {i+1} координату: "))
-                a[i] = number
-                is_OK = True
-                if a[i] == 0:
-                    is_OK = False
-                    print("Координата не должна быть равна 0 ")
-            except ValueError:
-                print("Вводить надо числа!")
-    return a
+x = int(input("Введите координату по оси Х = "))
+y = int(input("Введите координату по оси Y = "))
 
-def checkCoord(xy):
-    text = 4
-    if xy[0] > 0 and xy[1] > 0:
-        text = 1
-    elif xy[0] < 0 and xy[1] > 0:
-        text = 2
-    elif xy[0] < 0 and xy[1] < 0:
-        text = 3
-    print(f"Точка находится в {text} четверти плоскости")
+if x == 0 and y == 0:
+    print("Точка находится в начале координат")
+elif x == 0:
+    print("Точка на оси x")
+elif y == 0:
+    print("Точка на оси y")
 
-сoordinate = inputСoord(2)
-checkCoord(сoordinate)
+if x > 0 and y > 0:
+    print(f"Точка({x}, {y}) в 1 четверти")
+elif x < 0 and y > 0:
+    print(f"Точка({x}, {y}) в 2 четверти")
+elif x < 0 and y < 0:
+    print(f"Точка({x}, {y}) в 3 четверти")
+elif x > 0 and y > 0:
+    print(f"Точка({x}, {y}) в 4 четверти")
