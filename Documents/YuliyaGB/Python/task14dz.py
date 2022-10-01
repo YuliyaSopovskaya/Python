@@ -26,7 +26,7 @@ def func(number):
     return sum
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     chislo = input('Input a number: ')
     summary = func(chislo)
 
