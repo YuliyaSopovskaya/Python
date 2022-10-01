@@ -18,6 +18,6 @@ def func(number):
     print(res)
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     chislo = int(input("Input a number: "))
     func(chislo)
