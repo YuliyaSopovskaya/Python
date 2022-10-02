@@ -7,3 +7,4 @@
 num1 = int(input("Введите число"))
 for i in range(-num1, num1+1, 1):
     print(i)
+
