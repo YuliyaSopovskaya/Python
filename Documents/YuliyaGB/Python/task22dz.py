@@ -22,7 +22,7 @@
 
 # F−1 = 1,
 # F−2 = -1,
-# Fn = F(n+2)−F(n+1).
+# Fn = F(n+2)−F(n+1)
 
 x = int(input("Введите число:  "))
 y = []
@@ -37,3 +37,5 @@ for n in range(x-2, 1):
     y.insert(n, y[n])
     n = n - 1
 print(y)
+
+# не работает
