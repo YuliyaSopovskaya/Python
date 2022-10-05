@@ -1,4 +1,4 @@
-# фибоначи
+# фибоначчи
 # k = int(input('Введите число: '))
 # def get_fibonacci(k):
 #     fibo_nums = []
@@ -24,18 +24,20 @@
 # F−2 = -1,
 # Fn = F(n+2)−F(n+1)
 
-x = int(input("Введите число:  "))
-y = []
-y.insert(-1, 1)
-y.insert(-2, -1)
-# y[-1] = 1
-# y[-2] = -1
+n = int(input("Введите число:  "))
 
-for n in range(x-2, 1):
-    n = -3
-    y[n] = y[n+2] - y[n+1]   
-    y.insert(n, y[n])
-    n = n - 1
-print(y)
+def get_fibonacci(n):
+    fibo_nums = []
+    a, b = 1, 1
+    for i in range(n):
+       fibo_nums.append(a)
+       a, b = b, a + b
+    a, b = 0, 1   
+    for i in range(0, n+1):
+       fibo_nums.insert(0, a)
+       a, b = b, a - b
+    return fibo_nums
 
-# не работает
+fibo_nums = get_fibonacci(n)
+print(get_fibonacci(n))
+print(fibo_nums. index(0))
