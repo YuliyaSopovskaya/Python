@@ -7,3 +7,5 @@
 f = open('polynomial1.txt', 'r')
 f.read(0)
 print(*f)
+
+
