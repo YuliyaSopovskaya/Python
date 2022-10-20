@@ -12,3 +12,4 @@ for i in range(1, len(x), 2):
     #if i % 2 == 1:
         summ += x[i]       
 print(f"{x} -> сумма элементов на нечётных позициях: {summ}")
+
